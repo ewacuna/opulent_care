@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+/* OC GENERAL */
+.opc-center {
+    margin: 0 auto;
+}
+
+/* OC ITEMS */
+
+.opc-circle {
+    background: rgba(205, 157, 11, 1);
+    border-radius: 177px;
+    height: 92px;
+    width: 95px;
+}
+
+.opc-circle-icon {
+    width: 51px;
+}
+
+.opc-circle-title {
+    color: rgb(49, 0, 111);
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.opc-circle-description {
+    color: rgb(0, 0, 0);
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* OC CALL NOW */
+.opc-call-phone {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.opc-call-btn {
+    background: rgba(107, 127, 183, 1);
+    border-radius: 0px;
+    border-style: none;
+    box-shadow: inset 0px 1px 0px #b8bed0, inset 0 -1px 2px #4d5b83;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    height: 50px;
+    justify-content: center;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    width: 158px;
+}
+
+.opc-call-btn:hover {
+    background: rgba(81, 103, 174, 1);
+    box-shadow: inset 0px 1px 0px #98a3c7, inset 0 -1px 2px #39487b;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* OC HEADER */
+
+.opc-header-left {
+    background: rgba(255, 255, 255, 1);
+    border-bottom-left-radius: 114px;
+}
+
+.opc-header-container {
+    background: rgba(49, 0, 111, 1);
+}
+
+.opc-img-container {
+    display: block;
+}
+
+.opc-header-log {
+    max-width: 380px;
+}
+
+.opc-header-bg {
+    position: relative;
+    max-width: 680px;
+}
+
+.opc-header-title {
+    color: rgb(49, 0, 111);
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.opc-header-p {
+    color: rgb(49, 0, 111);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 40px;
+}
+
+/* OC BRANDS AND FORM */
+.opc-form {
+    background: rgba(107, 127, 183, 1);
+    height: 450px;
+    width: 430px;
+    position: absolute;
+    top: -110px;
+}
+
+.opc-form-container {
+    height: 400px;
+}
+
+/* OC ROOMS */
+
+.opc-rooms-image {
+    max-width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.opc-rooms-description {
+    background: rgba(107, 127, 183, 1);
+}
+
+.opc-rooms-p {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.opc-rooms-span {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* OC POWERFUL PROPERTY MARKETING */
+
+.opc-ppm-container {
+    background: rgba(205, 157, 11, 1);
+}
+
+.opc-ppm-title {
+    color: rgb(255, 255, 255);
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.opc-ppm-p {
+    color: rgb(255, 255, 255);
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* OC RENTAL INCOME ANALYSIS */
+.opc-ria-container {
+    background: rgba(255, 255, 255, 0);
+    background-image: url(../img/rental-income-analysis.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.opc-ria-image {
+    border-style: solid;
+    border-color: #cd9d0b;
+    border-radius: 133px;
+    border-width: 5px;
+    max-width: 170px;
+}
+
+.opc-ria-title {
+    color: rgb(205, 157, 11);
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.opc-button-rental {
+    border-style: none;
+    border-radius: 100px;
+    background: rgba(107, 127, 183, 1);
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 1px 0px #b8bed0, inset 0 -1px 2px #4d5b83;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    height: 58px;
+    justify-content: center;
+    line-height: 24px;
+    text-align: center;
+    text-shadow: none;
+    width: 217px;
+}
+
+.opc-button-rental:hover {
+    background: rgba(81, 103, 174, 1);
+    box-shadow: inset 0px 1px 0px #98a3c7, inset 0 -1px 2px #39487b;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* VIP EXPERIENCE */
+.opc-ve-container {
+    background-image: url(../img/vip-experience.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.opc-ve-title {
+    color: rgb(255, 255, 255);
+    background-color: rgb(107, 127, 183);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.opc-ve-p {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 400;
+    background-color: rgb(49, 0, 111);
+}
+
+/* OC DEDICATED OWNER */
+
+.opc-do-title {
+    color: rgb(50, 14, 59);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* OC KRISTEN KENNEY */
+
+.opc-kk-container {
+    background: rgba(107, 127, 183, 1);
+}
+
+.opc-kk-image {
+    border-color: #ffffff;
+    border-radius: 133px;
+    border-style: solid;
+    border-width: 5px;
+    max-width: 170px;
+}
+
+.opc-kk-title {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.opc-kk-p {
+    color: rgb(255, 255, 255);
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* OC FOOTER */
+
+.opc-footer-box {
+    background: rgba(205, 157, 11, 1);
+    display: block;
+    height: 64px;
+    text-align: center;
+    width: 100%;
+}
+
+.opc-footer-box p {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.opc-footer-line {
+    background: rgba(205, 157, 11, 1);
+    display: block;
+    height: 2px;
+    width: 100%;
+}
+
+.opc-img-footer {
+    max-width: 360px;
+}
+
+.opc-button-email {
+    border-style: none;
+    border-radius: 100px;
+    background: rgba(107, 127, 183, 1);
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 1px 0px #b8bed0, inset 0 -1px 2px #4d5b83;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    height: 58px;
+    justify-content: center;
+    line-height: 24px;
+    text-align: center;
+    text-shadow: none;
+    width: 285px;
+}
+
+.opc-button-email:hover {
+    background: rgba(81, 103, 174, 1);
+    box-shadow: inset 0px 1px 0px #98a3c7, inset 0 -1px 2px #39487b;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* OC BREAKPOINTS */
+
+@media (max-width: 575.98px) {
+    .opc-header-title {
+        font-size: 38px;
+    }
+
+    .opc-form {
+        width: 315px;
+    }
+
+    .opc-footer-box {
+        height: 82px;
+    }
+
+    .opc-footer-box p {
+        font-size: 13px;
+    }
+
+    .opc-footer-line {
+        margin-bottom: 15px;
+    }
+
+    .opc-img-footer {
+        height: 86px;
+        width: 265px;
+    }
+
+    .opc-form {
+        width: 318px !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .opc-header-left {
+        border-bottom-left-radius: 0px;
+    }
+
+    .opc-header-p {
+        padding-left: 0px;
+    }
+
+    .opc-header-container {
+        background-image: url(../img/second-bg.jpg);
+    }
+
+    .opc-img-container {
+        display: none;
+    }
+
+    .opc-form {
+        position: unset;
+    }
+
+    .opc-form-container {
+        height: 450px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .opc-header-log {
+        max-width: 275px;
+    }
+
+    .opc-header-title {
+        font-size: 40px;
+    }
+
+    .opc-form {
+        width: 305px !important;
+    }
+}
